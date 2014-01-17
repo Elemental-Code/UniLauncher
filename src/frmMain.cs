@@ -12,9 +12,25 @@ namespace UniLauncher
 {
     public partial class frmMain : Form
     {
+        
         public frmMain()
         {
             InitializeComponent();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            loadIcons();
+        }
+
+        private void loadIcons()
+        {
+            toolStripBtnAdd.Image = Image.FromFile
+                (Properties.Settings.Default.iconBtnAddLocation);
+            toolStripBtnEdit.Image = Image.FromFile
+                (Properties.Settings.Default.iconBtnEditLocation);
+            toolStripBtnSettings.Image = Image.FromFile
+                (Properties.Settings.Default.iconBtnSettingsLocation);
         }
     }
 }
