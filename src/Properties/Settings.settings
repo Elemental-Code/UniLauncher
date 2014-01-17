@@ -2,14 +2,17 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UniLauncher.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="iconBtnAddLocation" Type="System.String" Scope="User">
-      <Value Profile="(Default)">..\\..\\icons\\default\\btnAdd.png</Value>
+    <Setting Name="iconBtnAddEntryLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\\..\\icons\\default\\btnAddEntry.png</Value>
     </Setting>
     <Setting Name="iconBtnEditLocation" Type="System.String" Scope="User">
       <Value Profile="(Default)">..\\..\\icons\\default\\btnEdit.png</Value>
     </Setting>
     <Setting Name="iconBtnSettingsLocation" Type="System.String" Scope="User">
       <Value Profile="(Default)">..\\..\\icons\\default\\btnSettings.png</Value>
+    </Setting>
+    <Setting Name="iconBtnAddCategoryLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\\..\\icons\\default\\btnAddCategory.png</Value>
     </Setting>
   </Settings>
 </SettingsFile>

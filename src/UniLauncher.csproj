@@ -120,7 +120,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="icons\default\btnAdd.png" />
+    <Content Include="icons\default\btnAddCategory.png" />
+    <Content Include="icons\default\btnAddEntry.png" />
     <Content Include="icons\default\btnEdit.png" />
     <Content Include="icons\default\btnSettings.png" />
   </ItemGroup>

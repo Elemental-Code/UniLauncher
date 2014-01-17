@@ -25,12 +25,14 @@ namespace UniLauncher
 
         private void loadIcons()
         {
-            toolStripBtnAdd.Image = Image.FromFile
-                (Properties.Settings.Default.iconBtnAddLocation);
+            toolStripBtnAddEntry.Image = Image.FromFile
+                (Properties.Settings.Default.iconBtnAddEntryLocation);
             toolStripBtnEdit.Image = Image.FromFile
                 (Properties.Settings.Default.iconBtnEditLocation);
             toolStripBtnSettings.Image = Image.FromFile
                 (Properties.Settings.Default.iconBtnSettingsLocation);
+            toolStripBtnAddCategory.Image = Image.FromFile
+                (Properties.Settings.Default.iconBtnAddCategoryLocation);
         }
     }
 }

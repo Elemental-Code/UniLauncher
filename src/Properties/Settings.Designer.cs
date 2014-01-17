@@ -25,13 +25,13 @@ namespace UniLauncher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("..\\\\..\\\\icons\\\\default\\\\btnAdd.png")]
-        public string iconBtnAddLocation {
+        [global::System.Configuration.DefaultSettingValueAttribute("..\\\\..\\\\icons\\\\default\\\\btnAddEntry.png")]
+        public string iconBtnAddEntryLocation {
             get {
-                return ((string)(this["iconBtnAddLocation"]));
+                return ((string)(this["iconBtnAddEntryLocation"]));
             }
             set {
-                this["iconBtnAddLocation"] = value;
+                this["iconBtnAddEntryLocation"] = value;
             }
         }
         
@@ -56,6 +56,18 @@ namespace UniLauncher.Properties {
             }
             set {
                 this["iconBtnSettingsLocation"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("..\\\\..\\\\icons\\\\default\\\\btnAddCategory.png")]
+        public string iconBtnAddCategoryLocation {
+            get {
+                return ((string)(this["iconBtnAddCategoryLocation"]));
+            }
+            set {
+                this["iconBtnAddCategoryLocation"] = value;
             }
         }
     }
