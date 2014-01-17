@@ -32,11 +32,15 @@
             this.toolStripBtnAdd = new System.Windows.Forms.ToolStripButton();
             this.toolStripBtnEdit = new System.Windows.Forms.ToolStripButton();
             this.toolStripBtnSettings = new System.Windows.Forms.ToolStripButton();
+            this.tabControlCategorys = new System.Windows.Forms.TabControl();
+            this.tabPageDefault = new System.Windows.Forms.TabPage();
             this.mainToolStrip.SuspendLayout();
+            this.tabControlCategorys.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainToolStrip
             // 
+            this.mainToolStrip.AllowItemReorder = true;
             this.mainToolStrip.AutoSize = false;
             this.mainToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -81,11 +85,34 @@
             this.toolStripBtnSettings.Size = new System.Drawing.Size(36, 36);
             this.toolStripBtnSettings.Text = "Settings";
             // 
+            // tabControlCategorys
+            // 
+            this.tabControlCategorys.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControlCategorys.Controls.Add(this.tabPageDefault);
+            this.tabControlCategorys.Location = new System.Drawing.Point(13, 44);
+            this.tabControlCategorys.Name = "tabControlCategorys";
+            this.tabControlCategorys.SelectedIndex = 0;
+            this.tabControlCategorys.Size = new System.Drawing.Size(409, 455);
+            this.tabControlCategorys.TabIndex = 1;
+            // 
+            // tabPageDefault
+            // 
+            this.tabPageDefault.Location = new System.Drawing.Point(4, 22);
+            this.tabPageDefault.Name = "tabPageDefault";
+            this.tabPageDefault.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageDefault.Size = new System.Drawing.Size(401, 429);
+            this.tabPageDefault.TabIndex = 0;
+            this.tabPageDefault.Text = "Default";
+            this.tabPageDefault.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 511);
+            this.Controls.Add(this.tabControlCategorys);
             this.Controls.Add(this.mainToolStrip);
             this.MinimumSize = new System.Drawing.Size(350, 450);
             this.Name = "frmMain";
@@ -94,6 +121,7 @@
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.mainToolStrip.ResumeLayout(false);
             this.mainToolStrip.PerformLayout();
+            this.tabControlCategorys.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -104,6 +132,8 @@
         private System.Windows.Forms.ToolStripButton toolStripBtnAdd;
         private System.Windows.Forms.ToolStripButton toolStripBtnEdit;
         private System.Windows.Forms.ToolStripButton toolStripBtnSettings;
+        private System.Windows.Forms.TabControl tabControlCategorys;
+        private System.Windows.Forms.TabPage tabPageDefault;
     }
 }
 
