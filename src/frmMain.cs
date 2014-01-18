@@ -25,6 +25,9 @@ namespace UniLauncher
 
         private void loadIcons()
         {
+            /* Load icons for tool strip.
+            *  This will later be used for themes
+            */
             toolStripBtnAddEntry.Image = Image.FromFile
                 (Properties.Settings.Default.iconBtnAddEntryLocation);
             toolStripBtnEdit.Image = Image.FromFile
@@ -34,5 +37,6 @@ namespace UniLauncher
             toolStripBtnAddCategory.Image = Image.FromFile
                 (Properties.Settings.Default.iconBtnAddCategoryLocation);
         }
+
     }
 }

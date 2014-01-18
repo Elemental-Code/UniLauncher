@@ -30,13 +30,13 @@
         {
             this.mainToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripBtnAddEntry = new System.Windows.Forms.ToolStripButton();
+            this.toolStripBtnAddCategory = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripBtnEdit = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripBtnSettings = new System.Windows.Forms.ToolStripButton();
             this.tabControlCategorys = new System.Windows.Forms.TabControl();
             this.tabPageDefault = new System.Windows.Forms.TabPage();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripBtnAddCategory = new System.Windows.Forms.ToolStripButton();
             this.mainToolStrip.SuspendLayout();
             this.tabControlCategorys.SuspendLayout();
             this.SuspendLayout();
@@ -72,7 +72,22 @@
             this.toolStripBtnAddEntry.Margin = new System.Windows.Forms.Padding(0);
             this.toolStripBtnAddEntry.Name = "toolStripBtnAddEntry";
             this.toolStripBtnAddEntry.Size = new System.Drawing.Size(42, 42);
-            this.toolStripBtnAddEntry.Text = "Add Entery";
+            this.toolStripBtnAddEntry.Text = "Add Entry";
+            // 
+            // toolStripBtnAddCategory
+            // 
+            this.toolStripBtnAddCategory.AutoSize = false;
+            this.toolStripBtnAddCategory.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtnAddCategory.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripBtnAddCategory.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtnAddCategory.Name = "toolStripBtnAddCategory";
+            this.toolStripBtnAddCategory.Size = new System.Drawing.Size(42, 42);
+            this.toolStripBtnAddCategory.Text = "Add Category";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 48);
             // 
             // toolStripBtnEdit
             // 
@@ -84,6 +99,11 @@
             this.toolStripBtnEdit.Name = "toolStripBtnEdit";
             this.toolStripBtnEdit.Size = new System.Drawing.Size(42, 42);
             this.toolStripBtnEdit.Text = "Edit";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 48);
             // 
             // toolStripBtnSettings
             // 
@@ -116,26 +136,6 @@
             this.tabPageDefault.TabIndex = 0;
             this.tabPageDefault.Text = "Default";
             this.tabPageDefault.UseVisualStyleBackColor = true;
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 48);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 48);
-            // 
-            // toolStripBtnAddCategory
-            // 
-            this.toolStripBtnAddCategory.AutoSize = false;
-            this.toolStripBtnAddCategory.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripBtnAddCategory.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripBtnAddCategory.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtnAddCategory.Name = "toolStripBtnAddCategory";
-            this.toolStripBtnAddCategory.Size = new System.Drawing.Size(42, 42);
-            this.toolStripBtnAddCategory.Text = "Add Category";
             // 
             // frmMain
             // 
