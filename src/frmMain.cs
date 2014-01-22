@@ -12,7 +12,9 @@ namespace UniLauncher
 {
     public partial class frmMain : Form
     {
-        
+
+        private static frmAdd formAdd = new frmAdd();
+
         public frmMain()
         {
             InitializeComponent();
@@ -21,6 +23,18 @@ namespace UniLauncher
         private void frmMain_Load(object sender, EventArgs e)
         {
             loadIcons();
+        }
+
+        private void toolStripBtnAddEntry_Click(object sender, EventArgs e)
+        {
+            if(formAdd.Visible == true){
+                setPropsFrmAdd();
+            }
+            else
+            {
+                setPropsFrmAdd();
+                formAdd.Show();
+            }
         }
 
         private void loadIcons()
@@ -38,5 +52,14 @@ namespace UniLauncher
                 (Properties.Settings.Default.iconBtnAddCategoryLocation);
         }
 
+        private void setPropsFrmAdd()
+        {
+            formAdd.Width = 300;
+            formAdd.Height = 300;
+        }
+        private void setPropsFrmAddCategorys()
+        {
+
+        }
     }
 }

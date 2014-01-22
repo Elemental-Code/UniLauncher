@@ -73,6 +73,7 @@
             this.toolStripBtnAddEntry.Name = "toolStripBtnAddEntry";
             this.toolStripBtnAddEntry.Size = new System.Drawing.Size(42, 42);
             this.toolStripBtnAddEntry.Text = "Add Entry";
+            this.toolStripBtnAddEntry.Click += new System.EventHandler(this.toolStripBtnAddEntry_Click);
             // 
             // toolStripBtnAddCategory
             // 
