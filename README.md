@@ -3,7 +3,7 @@
 
 ### About
 
-A useful, user-friendly, program launcher made in C#. Its my public / open source application, i'm going to try to get the core functionality in first, then work on eye candy and ease of use.
+A useful, user-friendly, program launcher made in C#.
 
 ### Licence
 
